@@ -1,7 +1,3 @@
-body {
-  background: hotpink !important;
-}
-
 .dossier {
   background-color: #f8f6ef;
   border: 1px solid #222;
@@ -292,4 +288,5 @@ notes-table td {
   text-align: center;
 
 }
+
 
