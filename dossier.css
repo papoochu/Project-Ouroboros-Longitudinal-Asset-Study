@@ -289,4 +289,11 @@ notes-table td {
 
 }
 
+.chapter {
+  display: none;
+}
+
+.chapter.active {
+  display: block;
+}
 
