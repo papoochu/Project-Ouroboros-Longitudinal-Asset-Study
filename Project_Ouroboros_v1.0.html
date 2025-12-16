@@ -125,7 +125,16 @@
 
 <p>AE-CONSULTATIVE ASSEMBLY // ARCHIVE NODE: <span class="redact-black">[REDACTED]</span> • DO NOT DUPLICATE • DO NOT TRANSMIT</p></div></div>
 
+
+<script>
+function showChapter(num) {
+  document.querySelectorAll('.chapter').forEach(c => {
+    c.classList.remove('active');
+  });
+  document.getElementById('chapter-' + num).classList.add('active');
+}
+</script>
+  
 </body>
 </html>
 
-</section>
